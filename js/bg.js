@@ -18,4 +18,5 @@ function init() {
     const randomNumber = genRandom();
     paintImage(randomNumber);
 }
+
 init();

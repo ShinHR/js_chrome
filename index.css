@@ -49,13 +49,23 @@ body {
     display: none;
 }
 
+.center {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
 input {
     color: white;
     background: none;
     appearance: none;
+    width: 310px;
     border: 0;
     font-size: 35px;
     border-bottom: 2px solid white;
+    margin-block-start: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
 
 input::placeholder {
@@ -80,7 +90,7 @@ input:active {
     position: absolute;
     top: 10px;
     right: 15px;
-    font-size: small;
+    font-size: 1rem;
     font-weight: 600;
     font-style: italic;
     color: white
